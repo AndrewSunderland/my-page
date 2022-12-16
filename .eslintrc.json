@@ -1,0 +1,67 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": [
+    "plugin:jsx-a11y/strict",
+    "airbnb",
+    "plugin:react-hooks/recommended"
+  ],
+  "settings": {
+    "react": {
+        "version": "detect"
+    }
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [
+      "react",
+      "jsx-a11y"
+  ],
+  "rules": {
+      "react/prop-types": "off",
+      "no-plusplus": "off",
+      "react/no-unused-state": "off",
+      "max-len": [
+        "error",
+        {
+          "code": 120
+        }
+      ],
+      "import/no-named-as-default": 0,
+      "no-param-reassign": [
+        "error",
+        {
+          "props": false
+        }
+      ],
+      "comma-dangle": [
+        "error",
+        {
+          "arrays": "always-multiline",
+          "objects": "always-multiline",
+          "imports": "only-multiline",
+          "exports": "only-multiline",
+          "functions": "never"
+        }
+      ],
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ],
+    "react/function-component-definition": [1, {
+      "namedComponents": "arrow-function",
+      "unnamedComponents": "arrow-function"
+    }]
+  }
+}
+
