@@ -7,7 +7,7 @@ import works from '../assets/works.json';
 const Background = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 1.5em 0;
+  padding: 6rem 0;
 `;
 
 const StyledTitle = styled.h2`

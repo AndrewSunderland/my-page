@@ -7,12 +7,13 @@ const Background = styled.div`
   background-color: #18bc9c;
   display: flex;
   flex-direction: column;
-  padding: 1.5em 0;
+  padding: 1.5em 0 6rem 0;
 `;
 
 const Image = styled.img`
   width: 260px;
   align-self: center;
+  margin-bottom: 3rem;
 `;
 
 const StyledTitle = styled.h1`
@@ -20,6 +21,7 @@ const StyledTitle = styled.h1`
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: white;
+  margin: 0 0 0.5rem 0;
 `;
 
 const Subheader = styled.p`
