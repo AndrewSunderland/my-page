@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Wasteagram",
+    "link": "https://github.com/AndrewSunderland/wasteagram",
+    "description": "Wasteagram is a Flutter Application that helps keep track of food waste that restaurants might produce."
+  },
+  {
+    "title": "Diablo 3 Speedrunning",
+    "link": "https://github.com/AndrewSunderland/diablo3_speedrunning",
+    "description": "Diablo 3 Speedrunning is a website designed to track Speedrunning records for the video game Diablo 3 using a MySQL database."
+  },
+  {
+    "title": "Sockets Project",
+    "link": "https://github.com/AndrewSunderland/sockets_project",
+    "description": "Sockets Project is a simple program to test transferring files over a network socket."
+  },
+  {
+    "title": "Boat Slip API",
+    "link": "https://github.com/AndrewSunderland/boat_slip_api",
+    "description": "Boat Slip API is an API that is designed to manage a boat harbor with boats, slips and owners."
+  }
+]

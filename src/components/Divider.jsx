@@ -7,24 +7,28 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-const Border = styled.div`
-  border-bottom: 4px solid white;
+const Border = styled.div.attrs((props) => ({
+  inputColor: props.inputColor || 'white',
+}))`
+  border-bottom: 4px solid ${(props) => props.inputColor};
   width: 100px;
 `;
 
-const Content = styled.span`
+const Content = styled.span.attrs((props) => ({
+  inputColor: props.inputColor || 'white',
+}))`
   padding: 0 10px 0 10px;
-  color: white;
+  color: ${(props) => props.inputColor};
   font-size: 2.5em;
 `;
 
-const Divider = ({ children }) => (
+const Divider = ({ inputColor, children }) => (
   <Container>
-    <Border />
-    <Content>
+    <Border inputColor={inputColor} />
+    <Content inputColor={inputColor}>
       {children}
     </Content>
-    <Border />
+    <Border inputColor={inputColor} />
   </Container>
 );
 export default Divider;
