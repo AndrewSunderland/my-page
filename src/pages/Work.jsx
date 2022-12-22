@@ -36,8 +36,8 @@ const List = styled.ul`
   list-style-type: none;
 `;
 
-const Work = () => (
-  <Background>
+const Work = ({ id }) => (
+  <Background id={id}>
     <StyledTitle>
       Work
     </StyledTitle>

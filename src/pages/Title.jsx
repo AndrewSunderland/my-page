@@ -7,7 +7,8 @@ const Background = styled.div`
   background-color: #18bc9c;
   display: flex;
   flex-direction: column;
-  padding: 1.5em 0 6rem 0;
+  padding-top: calc(6rem + 99px);
+  padding-bottom: 6rem;
 `;
 
 const Image = styled.img`
@@ -27,8 +28,9 @@ const StyledTitle = styled.h1`
 const Subheader = styled.p`
   font-size: 1.75em;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: white;
+  font-weight: 300;
 `;
 
 const Title = () => (
